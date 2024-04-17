@@ -3,23 +3,23 @@
 服务端管理员账号：admin@qq.com  密码：a1234567
 # 效果图
 **登录注册页面**
-![登录注册页面](./asset/Pasted image 20240417210030.png)
+![登录注册页面](img/1.png)
 **找回密码界面**
-![找回密码界面](./asset/Pasted image 20240417210112.png)
+![找回密码界面](img/2.png)
 **主页**
-![主页](./asset/Pasted image 20240417211054.png)
+![主页](img/3.png)
 **批量上传文件**
-![批量上传文件](./asset/Pasted image 20240417211544.png)
+![批量上传文件](img/4.png)
 **文件预览**
-![文件预览](./asset/Pasted image 20240417211723.png)
+![文件预览](img/5.png)
 **文件下载**
-![文件下载](./asset/Pasted image 20240417211757.png)
+![文件下载](img/6.png)
 **文件分享**
-![文件分享](./asset/Pasted image 20240417211830.png)
+![文件分享](img/7.png)
 **管理员**
-![管理员](./asset/Pasted image 20240417211905.png)
+![管理员](img/8.png)
 **回收站**
-![回收站](./asset/Pasted image 20240417211924.png)
+![回收站](img/9.png)
 
 # 主要功能
 *  用户
