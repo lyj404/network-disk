@@ -1,0 +1,48 @@
+admin:
+    emails: admin@qq.com # 管理员邮箱
+log:
+    root:
+        level: info #日志级别配置
+# 项目路径
+project:
+    folder: D:\download\network-disk\network-disk-server
+server:
+    port: 7090
+    servlet:
+        context-path: /api
+        session:
+            timeout: PT60M #session过期时间 60M 一个小时
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: root
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/network-disk?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+        username: root
+    mail:
+        default-encoding: UTF-8
+        host: smtp.163.com
+        password: xxx # 授权码
+        port: 465
+        properties:
+            mail:
+                debug: true
+                smtp:
+                    socketFactory:
+                        class: javax.net.ssl.SSLSocketFactory
+        username: xxx@qq.com # 发送验证码的邮箱
+    mvc:
+        favicon:
+            enable: false
+        throw-exception-if-no-handler-found: true #异常处理
+    redis:
+        host: 127.0.0.1
+        timeout: 9000
+        port: 6379
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 10MB
+    web:
+        resources:
+            add-mappings: false
